@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
+      <p>Click the search link above. Make a choice for at least team 1 and the associated season.</p> 
+      <p>If a single team is selected, than all of that teams regular season games will be returned.</p> 
+      <p>If both teams are selected, than only games between those two teams will be returned.</p>
+      <p>Get the score, date, and arena for the games returned.</p>
     </div>
   );
 }
