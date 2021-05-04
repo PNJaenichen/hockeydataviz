@@ -1,9 +1,7 @@
 import getGame from "./components/getGame";
-import buildResult from './components/buildResult';
 
 function doSearch() {
-  const testGame = getGame().then(value => buildResult(value));
-  console.log(testGame);
+  console.log(getGame().then(value => console.log(value)));
 }
 
 function App() {

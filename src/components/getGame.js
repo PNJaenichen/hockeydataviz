@@ -6,6 +6,6 @@ async function getGame() {
   } catch {
     return 'not found'
   }
-} 
+}
 
 export default getGame;
